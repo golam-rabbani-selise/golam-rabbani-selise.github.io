@@ -9,24 +9,34 @@
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 50px;
-            background-color: #f4f4f4;
+            background-color: #121212;
+            color: #ffffff;
         }
         .container {
             max-width: 800px;
             margin: auto;
-            background: white;
+            background: #1e1e1e;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
         }
         img {
             width: 150px;
             border-radius: 50%;
             margin-bottom: 20px;
+            border: 3px solid #007bff;
         }
-        h1 { color: #333; }
-        p { font-size: 18px; color: #666; }
-        a { text-decoration: none; color: #007bff; font-weight: bold; }
+        h1 { color: #ffffff; }
+        p { font-size: 18px; color: #cccccc; }
+        a {
+            text-decoration: none;
+            color: #00aaff;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        a:hover {
+            color: #66c2ff;
+        }
         .skills, .projects {
             text-align: left;
             margin-top: 30px;
@@ -43,15 +53,24 @@
             margin-top: 20px;
             font-size: 16px;
         }
+        .divider {
+            width: 60%;
+            margin: 20px auto;
+            height: 2px;
+            background-color: #333;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="https://avatars.githubusercontent.com/u/121498345?s=400&u=a13f003c4200b96e33484e49679804aa712d6ec9&v=4" alt="Profile Picture"> <!-- Replace with your image URL -->
+        <img src="https://avatars.githubusercontent.com/u/121498345?s=400&u=a13f003c4200b96e33484e49679804aa712d6ec9&v=4" alt="Profile Picture">
         <h1>Hi, I'm Golam Rabbani! 👋</h1>
         <p>🚀 Software Developer | C# .NET | Angular | TypeScript | React</p>
         <p>Passionate about building scalable applications and crafting seamless user experiences.</p>
         <p>💼 Currently working at <strong>SELISE Digital Platforms</strong>.</p>
+
+        <div class="divider"></div>
 
         <div class="skills">
             <h2>🛠 Tech Stack</h2>
@@ -63,6 +82,8 @@
             </ul>
         </div>
 
+        <div class="divider"></div>
+
         <div class="projects">
             <h2>🚀 Projects</h2>
             <ul>
@@ -72,10 +93,12 @@
             </ul>
         </div>
 
+        <div class="divider"></div>
+
         <div class="contact">
             <h2>📫 Connect with Me</h2>
             <p>🔗 <a href="https://www.linkedin.com/in/golam~rabbani" target="_blank">LinkedIn</a></p>
-            <p>📧 Email: <a href="mailto:rabbycse7@gmail.com">rabbani.email@example.com</a></p>
+            <p>📧 Email: <a href="mailto:rabbycse7@gmail.com">rabbycse7@gmail.com</a></p>
         </div>
     </div>
 </body>
